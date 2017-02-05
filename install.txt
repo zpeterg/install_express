@@ -42,3 +42,7 @@ vim app.js
 node app.js
 
 # to view the page, go to: [ip address of server]:3000
+
+# to install pm2 (to make the website run all the time)
+npm install pm2 -g
+pm2 start app.js
